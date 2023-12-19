@@ -7,6 +7,8 @@ fetch(url)
         users.forEach((user) => {
             const listItem = document.createElement("li");
             listItem.style.backgroundColor = user.color;
+            listItem.id = `user-${user.id}`;
+            
 
             listItem.innerHTML = `<p>Name: ${user.firstName} ${user.lastName}
             <br>Username: ${user.username}</br></p>`;

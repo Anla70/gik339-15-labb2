@@ -1,0 +1,54 @@
+body {
+  width: 100%; /* Full bredd */
+  height: 100vh; /* Hela skärmens höjd */
+  background-color: rgba(237, 240, 224, 0.911); /* Bakgrundsfärg med RGBA-värden */
+  display: grid; /* Använder grid-layout */
+  gap: 10px; /* Mellanrum mellan grid-elementen */
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.container{
+    width: 30rem;
+    border: 1px solid rgb(148, 120, 120);
+    border-radius: 2rem;
+    margin-left: 40%;
+    font-size: 1rem;
+    box-shadow: 0 5px 5px 0;
+    align-items: center;
+    background-color: rgba(234, 238, 214, 0.973);
+    padding-top: 3rem;
+    padding-bottom: 3rem;
+}
+
+
+li{
+    width: 20rem;
+    border: 1px solid rgb(48, 46, 46);
+    border-radius: 1rem;
+    box-shadow: 5px 5px 5px 0;
+    margin-left: 8%;
+    padding-left: 1rem ;
+    font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 1rem;
+    color:rgb(59, 56, 56);    
+    list-style-type: none;
+    margin-top: 10px;
+}
+
+/* #user-1 {
+    width: 20rem;
+    border: 1px solid black;
+    border-radius: 1rem;
+    margin: auto;
+    padding-left: 1rem ;
+  
+  } */
+
+  /* Styling för paragrafelementet */
+ .headline  {
+    padding-top: 1rem; /* Utfyllnad överst */
+    margin-left: 45%; /* Marginal från vänsterkanten */
+    font-size: 2rem; /* Textstorlek */
+    color: rgba(31, 29, 29, 0.842); /* Textfärg */
+    font-weight: 600; /* Textvikt */
+  }
