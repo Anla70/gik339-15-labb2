@@ -30,7 +30,7 @@ fetch(url)
             // Lägger till userDiv till i griden
             grid.appendChild(userDiv);
         });
-        // Hämtar container från index.html och lägger till grid där 
+        // Hämtar container från index.html och lägger till griden där 
         document.querySelector('.container').appendChild(grid); 
     })
     .catch((error) => {
