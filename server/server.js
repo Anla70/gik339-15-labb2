@@ -1,6 +1,6 @@
 const express = require("express");
 const server = express();
-const port = 3000;
+const port = 5000;
 const sqlite3 = require("sqlite3").verbose();
 
 server.use(express.json());
